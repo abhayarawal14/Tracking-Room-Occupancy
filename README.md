@@ -1,23 +1,26 @@
 ## Project Overview:
-This project focuses on predicting room occupancy using environmental sensor data, such as temperature, CO2 levels, and light intensity. By applying machine learning techniques, specifically Gaussian Naive Bayes and Random Forest classifiers, the project aims to achieve high accuracy in occupancy detection. The dataset used for this project is sourced from the UCI Machine Learning Repository.
+This project leverages environmental sensor data, such as temperature, CO2 levels, and light intensity, to predict room occupancy using advanced machine learning techniques. Utilizing datasets from the UCI Machine Learning Repository, the project implements Gaussian Naïve Bayes and Random Forest models to classify room occupancy.
 
-## Key Features:
-+ **Data Preprocessing**: Cleaning, normalization, and handling of missing values.
-+ **Exploratory Data Analysis**: Identifying significant features influencing room occupancy.
-+ **Model Development**: Implemented Random Forest and Gaussian Naive Bayes classifiers.
-+ **Performance Evaluation**: Assessed models using accuracy, precision, recall, and F1-score.
-+ **Results Analysis**: Provided insights into the impact of different environmental factors on occupancy prediction.
+## Objectives
++ **Accuracy**: Develop highly accurate models for predicting room occupancy.
++ **Insights**: Analyze the effects of different environmental factors on occupancy detection.
++ **Sustainability**: Lay the groundwork for future Internet of Things (IoT) and environmental sustainability applications.
 
-## Impact:
-This project showcases the potential of machine learning in smart building automation, offering insights into resource management and energy efficiency. The findings lay the groundwork for future applications in the Internet of Things (IoT) and environmental sustainability.
+## Methodology
++ **Data Collection**: Environmental parameters (temperature, light, CO2 levels, and PIR sensor data) were gathered from the UCI Machine Learning Repository.
++ **Data Preprocessing**: Included cleaning, normalization, and handling missing values.
++ **Model Development**: Two machine learning models, Random Forests and Gaussian Naïve Bayes, were developed.
++ **Model Evaluation**: Models were assessed using metrics like accuracy, precision, recall, and F1-score.
 
-## Technologies Used:
-+ Python
-+ Machine Learning (Random Forest, Gaussian Naive Bayes)
-+ Data Analysis and Visualization Libraries (Pandas, NumPy, Matplotlib)
+## Key Findings
++ **Model Performance**: Random Forest achieved high performance with all metrics above 0.997, while Gaussian Naïve Bayes also performed strongly with metrics exceeding 0.96.
++ **Environmental Factors**: Temperature and light levels generally rise as room occupancy increases, while CO2 levels also tend to rise with increased occupancy.
+
+## Conclusion
+This project demonstrates the potential of machine learning in smart building automation, offering insights into resource management and energy efficiency. Future research could focus on real-time data for dynamic occupancy scenarios, scalability of the model in different building types, and examining user behavior to improve predictions.
 
 ## Future Work:
-+ Integrate real-time data for dynamic occupancy scenarios.
-+ Evaluate scalability across different building types.
-+ Investigate user behavior for improved prediction accuracy.
++ Access real-time data for dynamic occupancy scenarios.
++ Evaluate the scalability of the model in various building types.
++ Connect occupancy estimates with actual energy consumption for sustainable building management.
 
